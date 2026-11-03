@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300" role="img" aria-label="Change banner">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#4C1D95"/>
+      <stop offset="48%" stop-color="#6A11CB"/>
+      <stop offset="100%" stop-color="#2575FC"/>
+    </linearGradient>
+    <linearGradient id="sheen" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#ffffff" stroke-opacity="0.07" stroke-width="1"/>
+    </pattern>
+    <filter id="soft" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="58"/>
+    </filter>
+  </defs>
+
+  <g>
+    <rect width="1200" height="300" fill="url(#bg)"/>
+    <rect width="1200" height="300" fill="url(#grid)"/>
+    <circle cx="1015" cy="55" r="155" fill="#A78BFA" opacity="0.50" filter="url(#soft)"/>
+    <circle cx="140" cy="275" r="145" fill="#22D3EE" opacity="0.28" filter="url(#soft)"/>
+    <rect width="1200" height="300" fill="url(#sheen)"/>
+
+    <path d="M0 232 C150 262 300 202 450 214 C600 226 720 274 870 258 C990 245 1100 212 1200 224 L1200 300 L0 300 Z" fill="#ffffff" opacity="0.07"/>
+    <path d="M0 258 C160 286 320 234 480 244 C640 254 760 292 920 280 C1040 271 1120 250 1200 258 L1200 300 L0 300 Z" fill="#ffffff" opacity="0.11"/>
+    <path d="M0 283 C180 297 360 266 540 273 C720 280 860 299 1020 293 C1090 290 1150 283 1200 285 L1200 300 L0 300 Z" fill="#ffffff" opacity="0.16"/>
+  </g>
+
+  <text x="74" y="130" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="64" font-weight="700" letter-spacing="9" fill="#ffffff">CHANGE</text>
+  <rect x="78" y="154" width="88" height="4" rx="2" fill="#ffffff" fill-opacity="0.92"/>
+  <text x="78" y="194" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" letter-spacing="4.2" fill="#ffffff" fill-opacity="0.84">HARDWARE &#183; WEB &#183; AUTOMATION</text>
+  <text x="78" y="226" font-family="Consolas, Menlo, monospace" font-size="13" letter-spacing="1.2" fill="#ffffff" fill-opacity="0.58">github.com/Qishihe &#183; chd-charge.pages.dev</text>
+</svg>
