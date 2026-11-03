@@ -35,8 +35,6 @@
 | **[zaoba](https://github.com/Qishihe/zaoba)**<br/><sub>早八 · AI 工具每日自动签到（WorkBuddy / 豆包 / 智谱），带本地控制台</sub> | 早上 8:30 之前把该签的到全签完，人还在睡 | <img src="https://img.shields.io/badge/status-running-2ea44f?style=flat-square" /> <img src="https://img.shields.io/github/last-commit/Qishihe/zaoba?style=flat-square&color=2575FC&label=last" /> |
 | **[rea](https://github.com/Qishihe/rea)**<br/><sub>用 agent 逆向分析——从应用行为一路挖到原生二进制</sub> | 想搞懂一个东西到底怎么跑的，而不是只会用 | <img src="https://img.shields.io/badge/type-fork-8250df?style=flat-square" /> <img src="https://img.shields.io/github/last-commit/Qishihe/rea?style=flat-square&color=2575FC&label=last" /> |
 
-<sub>`zaoba` 与 `rea` 是基于上游的 fork——fork 仓库不会自动出现在主页热门项目里，记得手动 pin。</sub>
-
 <br/>
 
 ## 没开源的那条线
