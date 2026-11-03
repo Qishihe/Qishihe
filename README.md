@@ -3,7 +3,7 @@
 <img width="100%" src="assets/banner.svg" alt="banner" />
 
 <a href="https://chd-charge.pages.dev/">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=19&pause=1100&color=6A11CB&center=true&vCenter=true&width=680&lines=find+a+free+charger+before+class;longsong-chd-charger%2C+in+production;hardware+%C3%97+web+%C3%97+automation;ship+small+things+people+actually+use" alt="typing" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=19&pause=1100&color=6A11CB&center=true&vCenter=true&width=680&lines=chd-charge.pages.dev;ROS2+Humble+%2F+MoveIt2+%2F+Gazebo;Chang%27an+University" alt="typing" />
 </a>
 
 <br/>
@@ -16,30 +16,24 @@
 
 <br/>
 
-## 关于我
+## 关于
 
-> 先上线，再优雅。跑在别人手机里的丑代码，胜过躺在硬盘里的漂亮架构。
-
-- **作品** — [`longsong-chd-charger`](https://chd-charge.pages.dev/) 长安大学充电桩空闲查询，独立站点在线运行中
-- **日常** — 把重复劳动交给脚本：AI 工具自动签到、页面自动化、能省一步就省一步
-- **主线（未开源）** — `S300` 轮式机械臂：RealMan ECO65-B 六轴臂 + ROS2 Humble + MoveIt2 + Gazebo，从仿真一路推到真机
-- **信条** — 具体到接口名、话题名、能跑的代码；不要架构图，要能 `git clone` 的东西
+- **学校** — 长安大学
+- **公开项目** — `longsong-chd-charger`：充电桩空闲查询，部署在 [chd-charge.pages.dev](https://chd-charge.pages.dev/)
+- **私有项目** — `S300` 轮式机械臂：RealMan ECO65-B 六轴协作臂 + ROS2 Humble + MoveIt2 + Gazebo
+- **其他仓库** — `zaoba`（AI 工具定时签到）、`rea`（agent 逆向分析），均为 fork
 
 <br/>
 
 ## 项目
 
-目前只有一个是我自己写的。一个真有人在用的，胜过硬凑三行占位。
-
-| 项目 | 它解决什么 | 状态 |
+| 项目 | 说明 | 状态 |
 | :--- | :--- | :--- |
-| **[longsong-chd-charger](https://github.com/Qishihe/longsong-chd-charger)**<br/><sub>长安大学充电桩空闲查询 · [在线试用](https://chd-charge.pages.dev/)</sub> | 出门前先看清哪个桩空着，少白跑一趟教学楼 | <img src="https://img.shields.io/github/stars/Qishihe/longsong-chd-charger?style=flat-square&color=6A11CB&label=stars" /> <img src="https://img.shields.io/github/last-commit/Qishihe/longsong-chd-charger?style=flat-square&color=2575FC&label=last" /> <img src="https://img.shields.io/github/license/Qishihe/longsong-chd-charger?style=flat-square&label=license" /> |
-
-<sub>在跟两个上游项目学习：[`zaoba`](https://github.com/Qishihe/zaoba)（AI 工具定时签到）、[`rea`](https://github.com/Qishihe/rea)（agent 逆向分析）——fork，非原创。</sub>
+| **[longsong-chd-charger](https://github.com/Qishihe/longsong-chd-charger)**<br/><sub>长安大学充电桩空闲查询 · [在线试用](https://chd-charge.pages.dev/)</sub> | 查询各充电桩当前空闲状态 | <img src="https://img.shields.io/github/stars/Qishihe/longsong-chd-charger?style=flat-square&color=6A11CB&label=stars" /> <img src="https://img.shields.io/github/last-commit/Qishihe/longsong-chd-charger?style=flat-square&color=2575FC&label=last" /> <img src="https://img.shields.io/github/license/Qishihe/longsong-chd-charger?style=flat-square&label=license" /> |
 
 <br/>
 
-## 没开源的那条线
+## S300 轮式机械臂
 
 ```text
    vi_grab            MoveIt2          ros2_rm_robot         ECO65-B
@@ -50,7 +44,7 @@
                         (physics sim, same ROS2 API)
 ```
 
-同一套 ROS2 接口，先喂给幽灵臂，再喂给铁疙瘩。仿真里跑不通的轨迹，真机上只会更贵。
+仿真与真机共用同一套 ROS2 接口——先在 Gazebo 里验证轨迹，再下发到 ECO65-B。
 
 <br/>
 
@@ -71,9 +65,8 @@
 <br/>
 
 <!-- ============================================================
-     数据统计区：当前 3 个公开仓库（其中 2 个 fork），
-     卡片出来只有个位数，视觉上不如不放。
-     等公开仓库和提交量起来后，删掉这层注释即可启用。
+     数据统计区：当前 3 个公开仓库（其中 2 个 fork），卡片出来只有个位数。
+     公开仓库和提交量起来后，删掉这层注释即可启用。
      注意：github-readme-stats 走 Vercel，部分网络环境需要代理。
      ============================================================
 
@@ -92,11 +85,9 @@
 
 <div align="center">
 
-**找得到我**
-
 <a href="https://chd-charge.pages.dev/"><img src="https://img.shields.io/badge/%E4%B8%AA%E4%BA%BA%E7%AB%99-chd--charge.pages.dev-6A11CB?style=flat-square" alt="site" /></a>
 <a href="https://github.com/Qishihe"><img src="https://img.shields.io/badge/GitHub-Qishihe-181717?style=flat-square&logo=github" alt="github" /></a>
-<a href="https://github.com/Qishihe/Qishihe/issues"><img src="https://img.shields.io/badge/Discuss-Issues-2ea44f?style=flat-square&logo=github" alt="issues" /></a>
+<a href="https://github.com/Qishihe/Qishihe/issues"><img src="https://img.shields.io/badge/Issues-Qishihe%2FQishihe-2ea44f?style=flat-square&logo=github" alt="issues" /></a>
 
 <br/><br/>
 
