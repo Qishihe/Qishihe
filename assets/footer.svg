@@ -14,5 +14,4 @@
   <rect width="1200" height="120" fill="url(#fs)"/>
   <path d="M0 42 C170 8 340 70 510 52 C680 34 810 0 980 14 C1070 21 1140 34 1200 30 L1200 0 L0 0 Z" fill="#ffffff" opacity="0.10"/>
   <path d="M0 18 C190 46 360 2 540 12 C720 22 860 58 1030 48 C1100 44 1150 36 1200 38 L1200 0 L0 0 Z" fill="#ffffff" opacity="0.14"/>
-  <text x="600" y="72" text-anchor="middle" font-family="Consolas, Menlo, monospace" font-size="13" letter-spacing="3" fill="#ffffff" fill-opacity="0.72">BUILT, MEASURED, SHIPPED</text>
 </svg>
