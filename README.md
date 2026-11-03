@@ -27,13 +27,15 @@
 
 <br/>
 
-## 置顶项目
+## 项目
+
+目前只有一个是我自己写的。一个真有人在用的，胜过硬凑三行占位。
 
 | 项目 | 它解决什么 | 状态 |
 | :--- | :--- | :--- |
 | **[longsong-chd-charger](https://github.com/Qishihe/longsong-chd-charger)**<br/><sub>长安大学充电桩空闲查询 · [在线试用](https://chd-charge.pages.dev/)</sub> | 出门前先看清哪个桩空着，少白跑一趟教学楼 | <img src="https://img.shields.io/github/stars/Qishihe/longsong-chd-charger?style=flat-square&color=6A11CB&label=stars" /> <img src="https://img.shields.io/github/last-commit/Qishihe/longsong-chd-charger?style=flat-square&color=2575FC&label=last" /> <img src="https://img.shields.io/github/license/Qishihe/longsong-chd-charger?style=flat-square&label=license" /> |
-| **[zaoba](https://github.com/Qishihe/zaoba)**<br/><sub>早八 · AI 工具每日自动签到（WorkBuddy / 豆包 / 智谱），带本地控制台</sub> | 早上 8:30 之前把该签的到全签完，人还在睡 | <img src="https://img.shields.io/badge/status-running-2ea44f?style=flat-square" /> <img src="https://img.shields.io/github/last-commit/Qishihe/zaoba?style=flat-square&color=2575FC&label=last" /> |
-| **[rea](https://github.com/Qishihe/rea)**<br/><sub>用 agent 逆向分析——从应用行为一路挖到原生二进制</sub> | 想搞懂一个东西到底怎么跑的，而不是只会用 | <img src="https://img.shields.io/badge/type-fork-8250df?style=flat-square" /> <img src="https://img.shields.io/github/last-commit/Qishihe/rea?style=flat-square&color=2575FC&label=last" /> |
+
+<sub>在跟两个上游项目学习：[`zaoba`](https://github.com/Qishihe/zaoba)（AI 工具定时签到）、[`rea`](https://github.com/Qishihe/rea)（agent 逆向分析）——fork，非原创。</sub>
 
 <br/>
 
